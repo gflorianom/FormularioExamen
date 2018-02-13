@@ -1,0 +1,267 @@
+.general{border:5px solid gray;
+	width:70%;
+	margin-left:14%;
+	text-align:center;
+	background-image:url(../img/fondo7.jpg);
+	background-repeat:repeat;
+	border-radius:20px
+}
+
+.generali{border:5px solid gray;
+	width:70%;
+	margin-left:14%;
+	text-align:center;
+	background-image:url(../img/fondo7.jpg);
+	background-repeat:repeat;
+	border-radius:20px;
+	margin-top:4%
+}
+
+.generalindex{border:5px solid gray;
+	text-align:center;
+	background-image:url(../img/fondo7.jpg);
+	background-repeat:repeat;
+	border-radius:20px;
+	position:fixed;
+	width:38%;
+	left:32%;
+	height:50%;
+	top:15%
+}
+
+h3,h2{font-family:'Special Elite',cursive;
+	color:black
+}
+
+#text{width:35%;
+	background-color:#FFC;
+	border:2px solid gray;
+	border-radius:6px 6px
+}
+
+#selt{background-color:#FFC;
+	border:2px solid gray;
+	border-radius:6px 6px
+}
+
+body{background-image:url(../img/fondo5.jpg);
+	background-repeat:repeat
+}
+
+html{font-size:1.3vw;
+	font-family:'Special Elite',cursive
+}
+
+#esconder,#mostrar{display:block}
+
+#esconder{border-radius:20px;
+	background-image:url(../img/fondo6.jpg);
+	background-repeat:repeat;
+	position:absolute;
+	top:1.2%;
+	width:69.39%
+}
+
+#resultadosDiv{font-family:'Special Elite',cursive}
+
+#botoncorregir{font-family:'Special Elite',cursive;
+	width:20%;
+	font-weight:700;
+	cursor:pointer;
+	padding:5px;
+	margin:0 10px 20px 0;
+	border:3px solid gray;
+	background:#badeba;
+	border-radius:8px 8px 8px 8px;
+	border-color:grey
+}
+
+#sel1{height:90px;
+	background-color:#FFC;
+	border:2px solid gray;
+	font-family:'Special Elite',cursive;
+	border-radius:6px 6px
+}
+
+#sel{height:78px;
+	background-color:#FFC;
+	border:2px solid gray;
+	font-family:'Special Elite',cursive;
+	border-radius:6px 6px
+}
+
+#botoncorregir:hover,.ayuda:hover,#volverprincipal:hover,.botoncomenzar:hover,.ayudainicio:hover{background:gray;
+	transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	border-radius:10px 10px 10px 10px;
+	border:4px solid white
+}
+
+.ayuda{text-decoration:none;
+	font-family:'Special Elite',cursive;
+	background:#badeba;
+	position:fixed;
+	left:15%;
+	border-style:solid;
+	top:2%;
+	border-radius:8px 8px 8px 8px;
+	border:3px solid gray
+}
+
+#volverprincipal{font-family:'Special Elite',cursive;
+background:#badeba;
+position:relative;
+left:15%;
+border-style:solid;
+top:2%;
+border-radius:8px 8px 8px 8px;
+border:3px solid gray;
+width:10%;left:45%;
+padding-top:5px
+}
+
+a:hover{color:white}
+
+a{text-decoration:none}
+
+.cronometro{width:13%;
+	border-radius:8px 8px 8px 8px;
+	border:4px solid gray;
+	position:fixed;
+	background-image:url(../img/fondo7.jpg);
+	background-repeat:repeat
+}
+
+#nombrecronometro{text-align:center;
+	padding-top:1rem;
+	padding-bottom:.5rem
+}
+
+#timer{background-color:#badeba;
+	text-align:center;
+	color:black;
+	border-radius:5px 5px 5px 5px;
+	border:3px solid gray
+}
+
+#balon1{left:70%;
+	position:absolute;
+	top:10%;
+	width:10%;
+	}
+
+#tituloexamen{font-family:'Special Elite',cursive;
+font-size:larger
+}
+
+#universidad{font-family:'Special Elite',cursive;
+font-size:40px;
+color:grey;
+text-decoration:underline;
+text-decoration-style:solid
+}
+
+#balon2{left:16%;
+	position:absolute;
+	top:12%;
+	width:15%;
+}
+
+
+#reglas{font-family:'Special Elite',cursive;
+width:65%;
+position:relative;
+left:18%;
+text-align:justify
+}
+
+.ayudainicio{text-decoration:none;
+	font-family:'Special Elite',cursive;
+	background:#badeba;
+	position:fixed;left:65%;top:60%;
+	border-radius:8px 8px 8px 8px;
+	border:3px solid gray
+}
+
+.botoncomenzar{text-decoration:none;
+	font-family:'Special Elite',cursive;
+	background:#badeba;
+	position:fixed;
+	top:55%;left:48%;
+	border-radius:8px 8px 8px 8px;
+	border:3px solid gray
+}
+
+[type="checkbox"]{position:absolute;
+	left:50px
+}
+
+[type="checkbox"]
++label:after{content:'';
+position:absolute
+}
+
+[type="checkbox"]
++label{display:block;
+	position:relative;
+	cursor:pointer;
+	transition:color .3s
+}
+
+[type="checkbox"]
++label:after{width:30px;
+	eight:30px;
+	transition:all .1s;
+	top:0;left:0
+}
+
+[type="checkbox"]:checked+label{color:#c76b99}
+
+#FLOR_0,#FLOR_1,#FLOR_2,#FLOR_3,#FLOR_4,#FLOR_5{position:absolute;
+	left:45%
+}
+
+#checkboxDiv{position:relative;
+	text-align:justify;
+	left:28%
+}
+
+#RATON_0,#RATON_1,#RATON_2,#RATON_3,#RATON_4{position:absolute;
+	left:-2%
+}
+
+[type="radio"]{position:absolute}
+
+[type="radio"]
++label:after{content:'';
+position:absolute
+}
+
+[type="radio"]
++label{display:block;
+	position:relative;
+	cursor:pointer;
+	transition:color .3s
+}
+
+[type="radio"]
++label:after{width:30px;
+	height:30px;
+	transition:all .1s;
+	top:0;left:0
+}
+
+[type="radio"]:checked+label{color:#c76b99}
+
+#checkboxDiv3{text-align:left;
+	width:70%;
+	position:relative;
+	left:28%
+}
+
+#POKEMON_0,#POKEMON_1,#POKEMON_2,#POKEMON_3{left:-3%}
+
+#color_0,#color_1,#color_2,#color_3{left:46.5%}
