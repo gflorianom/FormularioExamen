@@ -18,7 +18,7 @@
                 <option>6,75 metros</option>
                 <option>6 metros</option>
                 <option>8 metros</option>
-                    <answer>2</answer>
+                    <answer>1</answer>
     </question>
     <question id="Pregunta04">
         <type>select</type>
@@ -27,7 +27,7 @@
                 <option>4</option>
                 <option>2</option>
                 <option>3</option>
-                    <answer>3</answer>
+                    <answer>2</answer>
     </question>
     <question id="Pregunta05">
         <type>multiple</type>
@@ -37,9 +37,9 @@
                 <option>Falta</option>
                 <option>Pasos</option>
                 <option>Corner</option>
-                    <answer>1</answer>
+                    <answer>0</answer>
+                    <answer>2</answer>
                     <answer>3</answer>
-                    <answer>4</answer>
     </question>
     <question id="Pregunta06">
         <type>multiple</type>
@@ -52,11 +52,11 @@
                 <option>Delantero</option>
                 <option>Escolta</option>
                 <option>Base</option>
+                    <answer>1</answer>
                     <answer>2</answer>
                     <answer>3</answer>
-                    <answer>4</answer>
+                    <answer>6</answer>
                     <answer>7</answer>
-                    <answer>8</answer>
     </question>
     <question id="Pregunta07">
         <type>checkbox</type>
@@ -66,9 +66,9 @@
                 <option>2 puntos</option>
                 <option>1 punto</option>
                 <option>4 puntos</option>
-                    <answer>1</answer>
+                    <answer>0</answer>
+                    <answer>2</answer>
                     <answer>3</answer>
-                    <answer>4</answer>
     </question>
     <question id="Pregunta08">
         <type>checkbox</type>
@@ -78,9 +78,9 @@
                 <option>Aro</option>
                 <option>Red</option>
                 <option>Banderilla de corner</option>
-                    <answer>1</answer>
+                    <answer>0</answer>
+                    <answer>2</answer>
                     <answer>3</answer>
-                    <answer>4</answer>
     </question>
     <question id="Pregunta09">
         <type>radio</type>
@@ -90,7 +90,7 @@
                 <option>2,75 metros</option>
                 <option>4,10 metros</option>
                 <option>2,90 metros</option>
-                    <answer>2</answer>
+                    <answer>1</answer>
     </question>
     <question id="Pregunta10">
         <type>radio</type>
@@ -99,6 +99,6 @@
                 <option>4</option>
                 <option>8</option>
                 <option>5</option>
-                    <answer>4</answer>
+                    <answer>3</answer>
     </question>
 </questions>

@@ -220,20 +220,18 @@ function corregirText(){
 
   if(mayus==mayus2){
 
-  //if (s=="Conectividad de bases de datos Java" || s=="conectividad de bases de datos java") {
-   darRespuestaHtml1("P1: CORRECTA");
+  darRespuestaHtml1("P1: CORRECTA");
 
    nota +=1;
   }
   else {
    
-  darRespuestaHtml2("P1: INCORRECTA, la respuesta correcta es [Conectividad de bases de datos Java]");
+  darRespuestaHtml2("P1: INCORRECTA, la respuesta correcta es [National Basketball Association]");
   }
 }
 // corregir TEXT1
 function corregirText1(){
   var r=formElement.elements[1].value;// posicion de el id osea la pregunta en el html
-  //var s=xmlDoc.getElementById('Pregunta02').getElementsByTagName('answer');
  var m=r.toUpperCase();
   var m2=respuestaText1.toUpperCase();
   if (m==m2) {
@@ -241,7 +239,7 @@ function corregirText1(){
    nota +=1;
   }
   else {
-    darRespuestaHtml2("P2: INCORRECTA, la respuesta correcta es [Apple]");
+    darRespuestaHtml2("P2: INCORRECTA, la respuesta correcta es [James Naismith]");
   }
 }
 //corregir seelect
@@ -254,7 +252,7 @@ function corregirSelect(){
    darRespuestaHtml1("P3: CORRECTA");
    nota +=1;
   }
-  else darRespuestaHtml2("P3: INCORRECTA, la respuesta correcta es [Oracle]");
+  else darRespuestaHtml2("P3: INCORRECTA, la respuesta correcta es [6,75 metros]");
 }
 // select1
 function corregirSelect1(){
@@ -265,19 +263,19 @@ function corregirSelect1(){
    darRespuestaHtml1("P4: CORRECTA");
    nota +=1;
   }
-  else darRespuestaHtml2("P4: INCORRECTA, la respuesta correcta es [System.out.println()]");
+  else darRespuestaHtml2("P4: INCORRECTA, la respuesta correcta es [2]");
 }
 
 //multiple
 function corregirSelectMultiple(){
 //respuestaSelect=xmlDoc.getElementById("Pregunta04").getElementsByTagName('answer')[0];
 
-  var sel = formElement.elements[6];  
+  var sel = formElement.elements[4];  
   if (sel.selectedIndex==respuestaSelectMultiple /*&& sel.selectedIndex==respuestaSelectMultipleA*/) {
-   darRespuestaHtml1("P7: CORRECTA");
+   darRespuestaHtml1("P5: CORRECTA");
    nota +=1;
   }
-  else darRespuestaHtml2("P7: INCORRECTA,");
+  else darRespuestaHtml2("P5: INCORRECTA,");
 }
 // multiple 1
 /*function corregirSelectMultiple1(){
@@ -292,10 +290,10 @@ function corregirSelectMultiple(){
     //si es correcta sumamos y ponemos mensaje, si no es correcta restamos y ponemos mensaje.
     if (escorrecta[i]) {
      nota +=1.0/respuestaSelectMultiple1.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml("P8: CORRECTA");    
+     darRespuestaHtml("P6: CORRECTA");    
     } else {
      nota -=1.0/respuestaSelectMultiple1.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml("P8: INCORRECTA, la respuesta correcta es [1995]");
+     darRespuestaHtml("P6: INCORRECTA, la respuesta correcta es [1995]");
     }   
    } 
   }
@@ -316,7 +314,7 @@ function corregirRadio(){
      darRespuestaHtml1("P9: CORRECTA");    
     } else {
      nota -=1.0/respuestasRadio.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml2("P9: INCORRECTA, la respuesta correcta es [1995]");
+     darRespuestaHtml2("P9: INCORRECTA, la respuesta correcta es [3,05 metros]");
     }   
    } 
   }
@@ -338,7 +336,7 @@ function corregirRadio1(){
      darRespuestaHtml1("P10: CORRECTA");    
     } else {
      nota -=1.0/respuestasRadio1.length;  //dividido por el número de respuestas correctas   
-     darRespuestaHtml2("P10: INCORRECTA, la respuesta correcta es [Software que permite ejecutar programas Java]");
+     darRespuestaHtml2("P10: INCORRECTA, la respuesta correcta es [5]");
     }   
    } 
   }
@@ -367,10 +365,10 @@ function corregirCheckbox(){
    } 
   }
   if(limite==2){
-     darRespuestaHtml1("P5: CORRECTA");  
+     darRespuestaHtml1("P7: CORRECTA");  
 
   }else{
-    darRespuestaHtml2("P5: INCORRECTA, la respuesta correcta es [Es un framework de javaScript para las aplicaciones de SPA] y [Es un framework de JS]");
+    darRespuestaHtml2("P7: INCORRECTA, la respuesta correcta es [3 puntos], [2 puntos] y [1 punto]");
   }
 }
 
@@ -399,10 +397,10 @@ function corregirCheckbox1(){
    } 
   }
   if(limite1==2){
-       darRespuestaHtml1("P6: CORRECTA");   
+       darRespuestaHtml1("P8: CORRECTA");   
 
   }else{
-     darRespuestaHtml2("P6: INCORRECTA, la respuesta correcta es [1.500€] y [1583$]");
+     darRespuestaHtml2("P8: INCORRECTA, la respuesta correcta es [Tablero], [Aro] y [Red]");
   }
 }
 
