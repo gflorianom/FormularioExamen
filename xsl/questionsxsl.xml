@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE questions SYSTEM "questions.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="questions.xsl"?>
 <questions>
  <question id='CJP001'>
   <type>checkbox</type>

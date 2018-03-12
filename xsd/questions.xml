@@ -1,28 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE questions SYSTEM "questions.dtd">
-<questions>
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="questionsxsd.xsd">
  <question id='CJP001'>
   <type>checkbox</type>
   <title>¿Qué es angularJs?</title>
    <option>Es un framework de javaScript para las aplicaciones de SPA</option>
   <option>Java server page</option> 
 <option>Es un navegador Web</option>
-<option>Es un framework de JS</option>
-<option>Es un aplicacion para ver los angulos del cuadrado</option>
 <answer>0</answer>
-<answer>3</answer>
  </question>
   <question id='CJP002'>
   <type>checkbox</type>
   <title>¿Cuánto cobra mensualmente de media en España un programador WEB?</title>
-  <option>2.500€</option>
-  <option>1.500€</option>
-  <option>2.458$</option> 
-  <option>1.000€</option>
-  <option>1.583$</option>
-  <option>2.221€</option>
+  <option>2.500</option>
+  <option>1.500</option> 
+  <option>1.000</option>
+  <option>2.221</option>
   <answer>1</answer> 
-  <answer>4</answer>
  </question>
  <question id='CJP003'>
   <type>text</type>
@@ -37,11 +30,9 @@
 <question id='CJP005'> 
  <type>multiple</type>
   <title>¿Que es SPA?</title>
-  <option>Aplicación web única</option>
-  <option>Aplicación web angular</option> 
-  <option>Aplicación web de una sola pagina</option>
-  <option>Aplicacion web para bases de datos</option>
-  <option>Aplicacion web para buscadores</option>
+  <option>aplicación web única</option>
+  <option>aplicación web angular</option> 
+  <option>aplicación web de una sola pagina</option>
   <answer>0</answer>
   <answer>2</answer> 
  </question>
@@ -52,8 +43,6 @@
   <option>SQL</option> 
   <option>HTML</option>
   <option>C++</option>
-  <option>MySQL</option>
-  <option>Php</option>
   <answer>0</answer>
   <answer>3</answer> 
  </question>
@@ -63,7 +52,6 @@
   <option>2000</option>
   <option>1995</option> 
   <option>1991</option>
-  <option>1998</option>
   <answer>1</answer> 
 </question> 
  <question id='CJP008'>
