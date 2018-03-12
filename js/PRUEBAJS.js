@@ -89,7 +89,7 @@ var second = 01;
    gestionarXml(this);
   }
  };
- xhttp.open("GET", "https://rawgit.com/Carlos4cf/questions/master/questions.xml", true);
+ xhttp.open("GET", "https://rawgit.com/gflorianom/FormularioExamen/master/questions.xml", true);
  xhttp.send();
 }
 
